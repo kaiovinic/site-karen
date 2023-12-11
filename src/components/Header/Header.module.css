@@ -1,0 +1,15 @@
+.paralax01 {
+  background-image: url("../../../public/foto-karen02.jpg");
+  height: 100vh !important;
+  background-position: 50% 33%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+li:hover {
+  color: #816e26;
+  text-decoration: underline;
+  cursor: pointer;
+}
