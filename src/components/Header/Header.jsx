@@ -13,8 +13,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Header = () => {
   return (
     <header
-      className={`${styles.paralax01} w-full relative bg-transparent flex flex-row justify-between  px-4 text-white  p-5 overflow-hidden bg-no-repeat
-      bg-fixed shadow-xl`}
+      className={`${styles.paralax01} min-w-full relative bg-transparent flex flex-row justify-between p-2 text-[#816e26] overflow-hidden bg-no-repeat
+      bg-fixed shadow-xl `}
     >
       <nav>
         <img src={logo} alt="logo" className="w-60" />
@@ -75,11 +75,21 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <section className="absolute top-[50%] left-[27%] -translate-x-1/2 -translate-y-1/2 w-1/2">
-        <h1 className="text-4xl font-bold wrap ">
-          Especialista em Carreira, Consultora com expertise em Desenvolvimento
-          Humano.
+      <section className="absolute top-[60%] left-[23%] -translate-x-1/2 -translate-y-1/2 w-[40%] text-center">
+        <h1 className="text-4xl font-bold wrap text-[#816e26]">
+          Consultoria, palestras e treinamentos sobre carreira.
         </h1>
+        <p className="text-lg mt-5 text-white">
+          &#34;Imagine um futuro onde você é o proficional que todos desejam ter
+          em sua equipe&#34;.
+        </p>
+        <button
+          href="#"
+          className=" mt-5 bg-[#816e26] text-black hover:text-white font-bold px-4 py-2 rounded transition  hover:scale-110 hover:-translate-y-1
+           shadow-2xl shadow-black "
+        >
+          Agendar conversa
+        </button>
       </section>
     </header>
   );
