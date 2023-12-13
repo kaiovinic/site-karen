@@ -1,8 +1,9 @@
 .paralax01 {
-  background-image: url("../../../public/karen.png");
+  background-image: url("/public/karen06.jpg");
   height: 100vh !important;
-  width: 100vh;
-  background-position: 50% 1%;
+  width: 100%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

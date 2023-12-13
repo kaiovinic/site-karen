@@ -11,18 +11,28 @@ import styles from "./Footer.module.css";
 
 // Imagem
 import logo from "/Logo_karen03.png";
+// Link
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contato" className="w-full h-screen bg-white">
       <section
         className={`${styles.paralax01} w-full bg-slate-900 text-black p-4 flex flex-row justify-between overflow-hidden bg-no-repeat
         `}
       >
         <nav>
-          <a href="/">
+          <Link
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="inicio"
+            className="cursor-pointer"
+          >
             <img src={logo} alt="logo" className="w-80" />
-          </a>
+          </Link>
         </nav>
 
         <nav>
@@ -90,8 +100,8 @@ const Footer = () => {
           </div>
         </nav>
       </section>
-      <section>
-        <nav className="m-2 font-bold text-center">
+      <section className="bg-white">
+        <nav className="p-1 font-bold text-center">
           <p>
             &copy; {new Date().getFullYear()}{" "}
             <a
