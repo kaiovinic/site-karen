@@ -10,7 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import styles from "./Footer.module.css";
 
 // Imagem
-import logo from "/Logo_karen03.png";
+import logo from "/public/logo_principal/logo06.png";
 // Link
 import { Link } from "react-scroll";
 
