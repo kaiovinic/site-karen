@@ -1,4 +1,9 @@
 import Carrossel from "../Carrossel/index";
+import Mentoria01 from "../Mentorias/Mentoria01";
+import Mentoria02 from "../Mentorias/Mentoria02";
+import Mentoria03 from "../Mentorias/Mentoria03";
+import Mentoria04 from "../Mentorias/Mentoria04";
+import MentoriaEmpresas from "../Mentorias/MentoriaEmpresas";
 import VideoPlayer from "../VideoPlayer";
 import Button01 from "../button/Button01";
 import Button02 from "../button/Button02";
@@ -22,7 +27,7 @@ const Main = () => {
         id="sobre"
         className="bg-white w-full  p-10 grid grid-cols-2  justify-items-center  "
       >
-        <h2 className="text-6xl font-bold text-[#816e26] text-center col-span-2 mb-10 text-shadow">
+        <h2 className="text-6xl font-bold text-[#816e26] text-center col-span-2 mb-10 ">
           A Karen
         </h2>
         <div>
@@ -99,6 +104,22 @@ const Main = () => {
           </section>
           <VideoPlayer />
         </section>
+      </section>
+
+      <section id="mentorias" className="bg-white p-10 text-center">
+        <h2 className="text-6xl font-bold text-[#816e26] ">Mentorias</h2>
+        <div className="grid grid-cols-2 justify-items-center">
+          <Mentoria01 />
+          <Mentoria03 />
+          <Mentoria02 />
+          <Mentoria04 />
+        </div>
+      </section>
+      <section id="Para empresas" className="bg-white p-10">
+        <h2 className=" text-center text-6xl font-bold text-[#816e26]">
+          Para empresas
+        </h2>
+        <MentoriaEmpresas />
       </section>
     </main>
   );

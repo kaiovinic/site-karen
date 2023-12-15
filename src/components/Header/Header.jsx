@@ -40,14 +40,26 @@ const Header = () => {
           </li>
           <li>
             <Link
+              to="mentorias"
               activeClass="active"
-              to="mentoria "
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
-              Mentoria
+              Mentorias
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="Para empresas"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Para empresas
             </Link>
           </li>
           <li>
