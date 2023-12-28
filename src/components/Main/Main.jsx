@@ -10,14 +10,14 @@ import karen from "/public/karen01.png";
 
 const Main = () => {
   const images = [
-    "/public/carrossel/carrossel01.jpeg",
-    "/public/carrossel/carrossel02.jpeg",
-    "/public/carrossel/carrossel03.jpeg",
-    "/public/carrossel/carrossel04.jpeg",
-    "/public/carrossel/carrossel05.jpeg",
-    "/public/carrossel/carrossel06.jpeg",
-    "/public/carrossel/carrossel07.jpeg",
-    "/public/carrossel/carrossel08.jpeg",
+    "/carrossel/carrossel01.jpeg",
+    "/carrossel/carrossel02.jpeg",
+    "/carrossel/carrossel03.jpeg",
+    "/carrossel/carrossel04.jpeg",
+    "/carrossel/carrossel05.jpeg",
+    "/carrossel/carrossel06.jpeg",
+    "/carrossel/carrossel07.jpeg",
+    "/carrossel/carrossel08.jpeg",
   ];
 
   return (

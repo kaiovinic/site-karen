@@ -39,8 +39,8 @@ const Footer = () => {
           <p className="text-2xl font-bold mr-10 mb-1">
             Me acompanhe em minhas redes sociais
           </p>
-          <ul className="flex gap-x-14 mt-10 text-4xl ml-20">
-            <li>
+          <ul className="flex gap-x-14 mt-10 text-4xl ml-20 ">
+            <li className="hover:text-[#816e26]">
               <a
                 href="https://www.tiktok.com/@karenvanesca"
                 target="_blank"
@@ -49,7 +49,7 @@ const Footer = () => {
                 <BiLogoTiktok />
               </a>
             </li>
-            <li>
+            <li className="hover:text-[#816e26]">
               <a
                 href="https://www.instagram.com/karenvanesca/"
                 target="_blank"
@@ -58,7 +58,7 @@ const Footer = () => {
                 <GrInstagram />
               </a>
             </li>
-            <li>
+            <li className="hover:text-[#816e26]">
               <a
                 href="https://www.linkedin.com/in/karenvanesca/"
                 target="_blank"
@@ -67,7 +67,7 @@ const Footer = () => {
                 <SiLinkedin />
               </a>
             </li>
-            <li>
+            <li className="hover:text-[#816e26]">
               <a
                 href="https://twitter.com/Kvanesca"
                 target="_blank"
