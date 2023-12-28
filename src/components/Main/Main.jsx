@@ -3,7 +3,6 @@ import Mentoria01 from "../Mentorias/Mentoria01";
 import Mentoria02 from "../Mentorias/Mentoria02";
 import Mentoria03 from "../Mentorias/Mentoria03";
 import Mentoria04 from "../Mentorias/Mentoria04";
-import MentoriaEmpresas from "../Mentorias/MentoriaEmpresas";
 import VideoPlayer from "../VideoPlayer";
 import Button01 from "../button/Button01";
 import Button02 from "../button/Button02";
@@ -114,12 +113,6 @@ const Main = () => {
           <Mentoria02 />
           <Mentoria04 />
         </div>
-      </section>
-      <section id="Para empresas" className="bg-white p-10">
-        <h2 className=" text-center text-6xl font-bold text-[#816e26]">
-          Para empresas
-        </h2>
-        <MentoriaEmpresas />
       </section>
     </main>
   );
