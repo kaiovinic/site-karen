@@ -9,7 +9,7 @@ import Button02 from "../button/Button02";
 import styles from "./Main.module.css";
 const Main = () => {
   const images = [
-    "/public/karen01.png",
+    "/carrossel/carrossel09.png",
     "/carrossel/carrossel01.jpeg",
     "/carrossel/carrossel02.jpeg",
     "/carrossel/carrossel03.jpeg",

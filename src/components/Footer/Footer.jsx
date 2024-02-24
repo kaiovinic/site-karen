@@ -108,7 +108,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/kaioviniciussilva/"
               target="_blank"
               rel="noreferrer"
-              className="hover:underline hover:text-[#816e26]"
+              className=" hover:text-[#816e26]"
             >
               <span>KAIO VINICIUS </span>
             </a>
