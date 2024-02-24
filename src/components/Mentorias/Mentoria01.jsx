@@ -4,11 +4,11 @@ const Mentoria01 = () => {
   return (
     <div className="grid m-10">
       {/* <div className="bg-mentoria01 bg-cover bg-no-repeat  w-1/2 rounded shadow-2xl shadow-black"></div> */}
-      <div className="text-start  p-10 ">
+      <div className="text-start text-white p-10 ">
         <h2 className="text-5xl font-bold text-orange-900  p-10">
           Domine sua carreira
         </h2>
-        <p className="text-xl">
+        <p className="text-xl ">
           Programa de mentoria para você que busca fortalecer seu foco
           profissional e desenvolver sua carreira.
         </p>

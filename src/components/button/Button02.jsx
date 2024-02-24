@@ -8,7 +8,7 @@ const Button02 = () => {
         className="block w-52 m-auto  mt-10  bg-[#816e26] text-black hover:text-white font-bold px-4 py-2 rounded transition  hover:scale-110 hover:-translate-y-1
            shadow-2xl shadow-black text-center"
       >
-        Agendar conversa
+        Agende uma conversa
       </a>
     </div>
   );

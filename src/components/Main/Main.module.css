@@ -1,8 +1,33 @@
 .paralax01 {
-  background-image: url("/public/imagens/carrossel01.png");
-  height: 100vh !important;
-  width: 100vh;
-  background-position: 50% 1%;
+  background-image: url("/public/karen07.jpg");
+  height: 100% !important;
+  width: 100%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.paralax02 {
+  background-image: url("/public/karen02.jpg");
+  height: 100% !important;
+  width: 100%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.paralax03 {
+  background-image: url("/public/karen02.jpg");
+  height: 100% !important;
+  width: 100%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

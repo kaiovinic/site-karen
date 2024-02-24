@@ -19,7 +19,7 @@ const Footer = () => {
     <footer id="contato" className="w-full h-screen bg-white">
       <section
         className={`${styles.paralax01} w-full bg-slate-900 text-black p-4 flex flex-row justify-between overflow-hidden bg-no-repeat
-        `}
+        bg-fixed shadow-xl`}
       >
         <nav>
           <Link
@@ -37,7 +37,7 @@ const Footer = () => {
 
         <nav>
           <p className="text-2xl font-bold mr-10 mb-1">
-            Me acompanhe em minhas redes sociais
+            Me acompanhe em minhas redes sociais:
           </p>
           <ul className="flex gap-x-14 mt-10 text-4xl ml-20 ">
             <li className="hover:text-[#816e26]">
@@ -95,7 +95,7 @@ const Footer = () => {
               className="text-3xl font-bold mt-10 flex gap-2 hover:text-[#816e26]"
             >
               <FaWhatsapp className="text-green-500" />
-              +55 21 9 83932168
+              +55 (21)98393-2168
             </a>
           </div>
         </nav>

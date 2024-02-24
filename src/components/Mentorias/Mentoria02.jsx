@@ -4,7 +4,7 @@ const Mentoria02 = () => {
   return (
     <div className="grid  m-10">
       {/* <div className="bg-mentoria02 bg-cover bg-no-repeat  w-1/2 rounded shadow-2xl shadow-black"></div> */}
-      <div className="text-start  p-10 ">
+      <div className="text-start text-white p-10 ">
         <h2 className="text-5xl font-bold text-orange-900 p-10">
           Programa Marca pessoal e uso do LinkedIn
         </h2>

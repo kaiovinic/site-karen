@@ -4,21 +4,20 @@ import { GrInstagram } from "react-icons/gr";
 import { SiLinkedin } from "react-icons/si";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
+import { twMerge } from "tailwind-merge";
+
 import { Link } from "react-scroll";
-import { useState } from "react";
-import HamburgerMenu from "./HamburguerMenu";
 
-const Nav = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+const Nav = ({ className }) => {
   return (
-    <div className="flex justify-between">
-      <HamburgerMenu isOpen={isOpen} toggleMenu={toggleMenu} />
-      <nav>
-        <ul className="lg:flex gap-14 mt-20 text-3xl font-bold  hidden  ">
+    <div className="flex w-full justify-around">
+      <nav className="flex">
+        <ul
+          className={twMerge(
+            "lg:flex gap-14 mt-20 text-3xl font-bold max-xl:gap-8 ",
+            className
+          )}
+        >
           <li>
             <Link
               activeClass="active"
@@ -27,6 +26,7 @@ const Nav = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              className="hover:text-[#a09369]"
             >
               A Karen
             </Link>
@@ -39,22 +39,12 @@ const Nav = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              className="hover:text-[#a09369]"
             >
               Mentorias
             </Link>
           </li>
-          <li>
-            <Link
-              to="Para empresas"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Para empresas
-            </Link>
-          </li>
+
           <li>
             <Link
               to="contato"
@@ -63,6 +53,7 @@ const Nav = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              className="hover:text-[#a09369]"
             >
               Contato
             </Link>
@@ -70,13 +61,19 @@ const Nav = () => {
         </ul>
       </nav>
 
-      <nav>
-        <ul className="lg:flex gap-10 mt-20 text-3xl mr-10  hidden space-x-4">
+      <nav className="flex">
+        <ul
+          className={twMerge(
+            "lg:flex gap-10 mt-20 text-3xl mr-10 max-xl:gap-6 ",
+            className
+          )}
+        >
           <li>
             <a
               href="https://www.tiktok.com/@karenvanesca"
               target="_blank"
               rel="noreferrer"
+              className="hover:text-[#a09369]"
             >
               <BiLogoTiktok />
             </a>
@@ -86,6 +83,7 @@ const Nav = () => {
               href="https://www.instagram.com/karenvanesca/"
               target="_blank"
               rel="noreferrer"
+              className="hover:text-[#a09369]"
             >
               <GrInstagram />
             </a>
@@ -95,6 +93,7 @@ const Nav = () => {
               href="https://www.linkedin.com/in/karenvanesca/"
               target="_blank"
               rel="noreferrer"
+              className="hover:text-[#a09369]"
             >
               <SiLinkedin />
             </a>
@@ -104,6 +103,7 @@ const Nav = () => {
               href="https://twitter.com/Kvanesca"
               target="_blank"
               rel="noreferrer"
+              className="hover:text-[#a09369]"
             >
               <FaSquareXTwitter />
             </a>

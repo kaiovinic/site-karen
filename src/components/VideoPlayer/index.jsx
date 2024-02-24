@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import video from "/public/video01.mp4";
+import video from "/public/video02.mp4";
 
 const VideoPlayer = () => {
   return (

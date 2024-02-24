@@ -9,9 +9,3 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
-li:hover {
-  transform: scale(1.5);
-  transition: 0.2s;
-  cursor: pointer;
-}
