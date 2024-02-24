@@ -10,7 +10,7 @@ const SectionHeader = () => {
         <h1 className="text-4xl font-bold wrap text-[#816e26] max-sm:text-2xl max-sm:text-center">
           Consultoria, palestras e treinamentos sobre carreira.
         </h1>
-        <p className="text-lg mt-5 text-white font-medium  max-lg:text-black max-sm:text-sm max-sm:text-center">
+        <p className="text-lg mt-5 text-white font-medium  max-lg:text-black max-sm:text-lg max-sm:text-center">
           &#34;Imagine um futuro onde você é o proficional que todos desejam ter
           em sua equipe&#34;.
         </p>
