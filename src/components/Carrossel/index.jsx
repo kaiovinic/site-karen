@@ -15,7 +15,7 @@ const Carrossel = ({ images }) => {
   };
 
   return (
-    <div className="carousel-container relative">
+    <div className="carousel-container relative shadow-2xl shadow-[#000]">
       <img
         src={images[currentImage]}
         alt={`Slide ${currentImage}`}

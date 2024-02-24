@@ -24,65 +24,75 @@ const Main = () => {
     <main>
       <section
         id="sobre"
-        className={`${styles.paralax01} bg-black w-full  p-10 grid grid-cols-2  justify-items-center bg-fixed`}
+        className={`${styles.paralax01} bg-black w-full  p-10 grid grid-cols-1  justify-items-center  bg-fixed`}
       >
-        <div className="max-w-[530px] shadow-2xl shadow-black">
-          <Carrossel images={images} />
+        <div className="max-w-[550px] shadow-2xl shadow-black ">
+          <Carrossel
+            images={images}
+            className="shadow-2xl shadow-[#ffffff91]"
+          />
         </div>
 
         <Button01 />
       </section>
 
-      <section className={`${styles.paralax02}  bg-black  bg-fixed`}>
+      <section
+        className={`${styles.paralax02}  bg-black  bg-fixed max-md:text-center `}
+      >
         <section className="p-10">
           <h2
             className="text-6xl font-bold text-white text-center m-10 mb-14
-          text-shadow"
+          text-shadow max-sm:text-4xl"
           >
             Eu posso te ajudar com...
           </h2>
-          <section className="flex m-10">
-            <article className="w-[20%] mr-10 text-center ">
-              <h3 className="text-[#816e26] mb-6 text-3xl">
+          <section className="flex m-10 justify-center gap-10  max-md:flex-col  ">
+            <article className="w-[20%] mr-10 text-center max-md:w-full ">
+              <h3 className="text-[#816e26] mb-6 text-3xl font-bold  max-sm:text-3xl">
                 Carreira profissional
               </h3>
-              <p className="text-lg text-white">
+              <p className="text-lg text-white  font-medium  max-sm:text-sm">
                 Saiba o momento certo para decidir o seu futuro.
               </p>
             </article>
-            <article className="w-[300px] mr-10 text-center">
-              <h3 className="text-[#816e26] mb-6 text-3xl">
+            <article className="w-[300px] mr-10 text-center max-md:w-full ">
+              <h3 className="text-[#816e26] mb-6 text-3xl font-bold  max-sm:text-3xl">
                 Foco Profissional
               </h3>
-              <p className="text-lg text-white">
+              <p className="text-lg text-white font-medium  max-sm:text-sm">
                 Tenha uma base assertiva para o seu plano de ação.
               </p>
             </article>
-            <article className="w-[300px] mr-10 text-center">
-              <h3 className="text-[#816e26] mb-6 text-3xl">
+          </section>
+
+          <section className="flex m-10 justify-center gap-10 max-md:flex-col">
+            <article className="w-[300px] mr-10 text-center max-md:w-full ">
+              <h3 className="text-[#816e26] mb-6 text-3xl font-bold  max-sm:text-3xl">
                 Conquistar o Emprego dos Sonhos
               </h3>
-              <p className="text-lg text-white">
+              <p className="text-lg text-white  font-medium max-sm:text-sm">
                 Destaque-se da maioria dos candidatos.
               </p>
             </article>
-            <article className="w-[300px] text-center">
-              <h3 className="text-[#816e26] mb-6 text-3xl">Autoconhecimento</h3>
-              <p className="text-lg text-white">
+            <article className="w-[300px] text-center max-md:w-full ">
+              <h3 className="text-[#816e26] mb-6 text-3xl font-bold  max-sm:text-3xl">
+                Autoconhecimento
+              </h3>
+              <p className="text-lg text-white  font-medium  max-sm:text-sm">
                 Observe a si mesmo nas várias dimensões da vida. Reconheça suas
                 limitações e fortaleça seu potencial.
               </p>
             </article>
           </section>
-          <section className="flex m-10 p-20">
-            <section className="w-[70%] mr-10 text-center">
-              <h2 className="text-6xl font-bold text-white mb-10 text-shadow">
+          <section className="flex m-10 p-10 max-lg:flex-col">
+            <section className="w-full  mr-10 text-center">
+              <h2 className="text-6xl font-bold text-white mb-10 text-shadow  max-sm:text-4xl">
                 Alcance seu potencial máximo:
               </h2>
-              <h3 className="text-3xl font-bold text-[#816e26] mb-10 ">
+              <h3 className="text-3xl font-bold text-[#816e26] mb-10  max-sm:text-3xl">
                 Descubra o caminho para o sucesso!
               </h3>
-              <p className="text-lg text-start text-white">
+              <p className="text-lg text-start text-white  font-medium  max-sm:text-sm">
                 Prepare-se para uma jornada de autodescoberta e sucesso
                 profissional! Supere as barreiras que estão bloqueando seu
                 caminho e alcance seus objetivos. Visualize-se desenvolvendo
@@ -92,10 +102,10 @@ const Main = () => {
                 encontrar satisfação em sua carreira, você abre as portas para o
                 crescimento pessoal, bem-estar e autoconfiança.
               </p>
-              <Button02 />
             </section>
             <VideoPlayer />
           </section>
+          <Button02 />
         </section>
       </section>
 
@@ -103,8 +113,10 @@ const Main = () => {
         id="mentorias"
         className={`${styles.paralax03} bg-black p-10 text-center bg-fixed`}
       >
-        <h2 className="text-6xl font-bold text-[#816e26] ">Mentorias</h2>
-        <div className="grid grid-cols-2 justify-items-center">
+        <h2 className="text-6xl font-bold text-[#816e26] max-sm:text-4xl ">
+          Mentorias
+        </h2>
+        <div className="grid grid-cols-2 justify-items-center max-lg:grid-cols-1">
           <Mentoria01 />
           <Mentoria03 />
           <Mentoria02 />

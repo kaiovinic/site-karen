@@ -26,7 +26,7 @@ const Nav = ({ className }) => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369]  max-sm:text-2xl"
             >
               A Karen
             </Link>
@@ -39,7 +39,7 @@ const Nav = ({ className }) => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369] max-sm:text-2xl"
             >
               Mentorias
             </Link>
@@ -53,7 +53,7 @@ const Nav = ({ className }) => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369] max-sm:text-2xl"
             >
               Contato
             </Link>
@@ -63,17 +63,14 @@ const Nav = ({ className }) => {
 
       <nav className="flex">
         <ul
-          className={twMerge(
-            "lg:flex gap-10 mt-20 text-3xl mr-10 max-xl:gap-6 ",
-            className
-          )}
+          className={twMerge("lg:flex gap-10 mt-20 text-3xl m-10 ", className)}
         >
           <li>
             <a
               href="https://www.tiktok.com/@karenvanesca"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369] max-sm:text-2xl"
             >
               <BiLogoTiktok />
             </a>
@@ -83,7 +80,7 @@ const Nav = ({ className }) => {
               href="https://www.instagram.com/karenvanesca/"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369] max-sm:text-2xl"
             >
               <GrInstagram />
             </a>
@@ -93,7 +90,7 @@ const Nav = ({ className }) => {
               href="https://www.linkedin.com/in/karenvanesca/"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369] max-sm:text-2xl"
             >
               <SiLinkedin />
             </a>
@@ -103,7 +100,7 @@ const Nav = ({ className }) => {
               href="https://twitter.com/Kvanesca"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#a09369]"
+              className="hover:text-[#a09369] max-sm:text-2xl"
             >
               <FaSquareXTwitter />
             </a>
