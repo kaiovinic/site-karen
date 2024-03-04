@@ -10,11 +10,11 @@ import { Link } from "react-scroll";
 
 const Nav = ({ className }) => {
   return (
-    <div className="flex w-full justify-around max-lg:flex-col max-lg:justify-start max-lg:w-44 ">
+    <div className="flex w-full justify-around max-lg:flex-col max-lg:justify-start max-lg:w-44  ">
       <nav className="flex ">
         <ul
           className={twMerge(
-            "lg:flex gap-14 mt-20 text-3xl font-bold max-xl:gap-8 ",
+            "lg:flex gap-14 mt-10 text-3xl font-bold max-xl:gap-8 max-lg:mt-2",
             className
           )}
         >
@@ -61,9 +61,12 @@ const Nav = ({ className }) => {
         </ul>
       </nav>
 
-      <nav className="flex">
+      <nav className="flex ">
         <ul
-          className={twMerge("lg:flex gap-10 mt-20 text-3xl m-10 ", className)}
+          className={twMerge(
+            "lg:flex gap-10 mt-20 text-3xl m-10 max-lg:mt-2",
+            className
+          )}
         >
           <li className="max-lg:mb-4">
             <a
@@ -100,7 +103,7 @@ const Nav = ({ className }) => {
               href="https://twitter.com/Kvanesca"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#a09369] max-sm:text-2xl"
+              className="hover:text-[#a09369] max-sm:text-2xl "
             >
               <FaSquareXTwitter />
             </a>

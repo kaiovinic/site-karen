@@ -27,7 +27,7 @@ const NavButton = () => {
     <>
       <button
         type="button"
-        className="text-black lg:hidden flex items-start"
+        className="text-black lg:hidden flex items-start "
         onClick={toggleNav}
       >
         {isOpen ? (
@@ -36,7 +36,7 @@ const NavButton = () => {
           <GiHamburgerMenu className="text-3xl mr-2 mt-1 " />
         )}
       </button>
-      {isOpen && <Nav className="  " />}{" "}
+      {isOpen && <Nav />}{" "}
     </>
   );
 };
