@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 
 const Nav = ({ className }) => {
   return (
-    <div className="flex w-full justify-around max-lg:flex-col max-lg:justify-start max-lg:w-44  ">
+    <div className="flex w-full justify-around max-lg:flex-col max-lg:justify-start max-lg:w-44 max-lg:landscape:w-52  ">
       <nav className="flex ">
         <ul
           className={twMerge(
