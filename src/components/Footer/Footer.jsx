@@ -41,10 +41,10 @@ const Footer = () => {
         </nav>
 
         <nav>
-          <p className="text-2xl font-bold mr-10 mb-1 max-md:text-xl">
+          <p className="text-3xl font-bold mr-10 mb-1 max-md:text-xl">
             Me acompanhe em minhas redes sociais:
           </p>
-          <ul className="flex gap-x-14 mt-10 text-4xl ml-20 max-md:text-2xl max-md:ml-0 max-md:mt-4">
+          <ul className="flex gap-x-14 mt-10 text-4xl ml-4 max-md:text-2xl max-md:ml-0 max-md:mt-4">
             <li className="hover:text-[#816e26]">
               <a
                 href="https://www.tiktok.com/@karenvanesca"
@@ -82,10 +82,10 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className="flex flex-col mt-10 max-md:mt-0">
+          <div className="flex flex-col mt-10 max-md:mt-4">
             <a
               href="mailto:karen.vanesca@hotmail.com"
-              className="text-3xl font-bold mt-10 flex gap-2 hover:text-[#816e26] max-md:text-2xl"
+              className="text-3xl font-bold flex gap-2 hover:text-[#816e26] max-md:text-2xl"
               target="_blank"
               rel="noreferrer"
             >
