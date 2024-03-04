@@ -5,7 +5,7 @@ const Tittle = () => {
   return (
     <>
       <nav className="p-6">
-        <img src={logo} alt="logo" className="w-80" />
+        <img src={logo} alt="logo" className="w-80 max-lg:w-36" />
       </nav>
     </>
   );

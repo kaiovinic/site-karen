@@ -10,15 +10,15 @@ import { Link } from "react-scroll";
 
 const Nav = ({ className }) => {
   return (
-    <div className="flex w-full justify-around">
-      <nav className="flex">
+    <div className="flex w-full justify-around max-lg:flex-col max-lg:justify-start max-lg:w-44 ">
+      <nav className="flex ">
         <ul
           className={twMerge(
             "lg:flex gap-14 mt-20 text-3xl font-bold max-xl:gap-8 ",
             className
           )}
         >
-          <li>
+          <li className="max-lg:mb-2">
             <Link
               activeClass="active"
               to="sobre"
@@ -26,12 +26,12 @@ const Nav = ({ className }) => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="hover:text-[#a09369]  max-sm:text-2xl"
+              className="hover:text-[#a09369]  max-sm:text-2xl "
             >
               A Karen
             </Link>
           </li>
-          <li>
+          <li className="max-lg:mb-2">
             <Link
               to="mentorias"
               activeClass="active"
@@ -65,7 +65,7 @@ const Nav = ({ className }) => {
         <ul
           className={twMerge("lg:flex gap-10 mt-20 text-3xl m-10 ", className)}
         >
-          <li>
+          <li className="max-lg:mb-4">
             <a
               href="https://www.tiktok.com/@karenvanesca"
               target="_blank"
@@ -75,7 +75,7 @@ const Nav = ({ className }) => {
               <BiLogoTiktok />
             </a>
           </li>
-          <li>
+          <li className="max-lg:mb-4">
             <a
               href="https://www.instagram.com/karenvanesca/"
               target="_blank"
@@ -85,7 +85,7 @@ const Nav = ({ className }) => {
               <GrInstagram />
             </a>
           </li>
-          <li>
+          <li className="max-lg:mb-4">
             <a
               href="https://www.linkedin.com/in/karenvanesca/"
               target="_blank"

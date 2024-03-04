@@ -36,7 +36,7 @@ const NavButton = () => {
           <GiHamburgerMenu className="text-3xl mr-2 mt-1 " />
         )}
       </button>
-      {isOpen && <Nav className="flex flex-col items-center" />}{" "}
+      {isOpen && <Nav className="  " />}{" "}
     </>
   );
 };
